@@ -1,0 +1,9 @@
+ssh -i "advanced-rag-key-pair.pem" ubuntu@ec2-13-201-225-31.ap-south-1.compute.amazonaws.com
+
+cd advanced-rag
+
+source .venv/bin/activate
+
+ls
+
+pip install -r requirements.txt
